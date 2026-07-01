@@ -1,21 +1,23 @@
 
 # Social Anxiety Statistical Analysis
 
-This project explores a social anxiety dataset and performs statistical analysis based on anxiety levels.  
-The notebook focuses on understanding the data structure, identifying the target variable, and applying hypothesis testing to compare groups under different conditions.
+This project explores a social anxiety dataset through exploratory data analysis and statistical hypothesis testing. The analysis investigates relationships between demographic, behavioral, and anxiety-related variables using statistical methods appropriate for different data types. In addition to comparing numerical variables across groups, selected numerical features were discretized into categorical intervals (binning) to evaluate their associations with social anxiety using the Chi-Square Test of Independence.
 
 ---
 
 ## Project Overview
 
-The goal of this project is to analyze a social anxiety dataset and investigate how anxiety-related features behave across different groups.
+The goal of this project is to analyze a social anxiety dataset and identify statistically significant relationships between social anxiety levels and various demographic and behavioral factors.
 
 The notebook includes:
-- data loading and inspection
-- feature review and dataset understanding
-- target variable identification
-- statistical testing based on group assumptions
-- hypothesis testing using both parametric and non-parametric methods
+- Data loading and inspection
+- Feature review and dataset understanding
+- Target variable identification
+- Data preprocessing and feature binning for selected numerical variables
+- Normality assessment using the Shapiro–Wilk test
+- Hypothesis testing using parametric and non-parametric methods
+- Chi-Square Test of Independence for categorical variables, including binned numerical features
+- Interpretation and visualization of statistically significant findings
 
 ---
 
