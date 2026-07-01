@@ -49,15 +49,17 @@ as the target variable.
 
 ## Statistical Analysis
 
-The analysis follows a structured hypothesis testing workflow:
+The statistical analysis followed a structured hypothesis testing workflow based on variable types and distribution assumptions.
 
-1. **Normality check** using the **Shapiro–Wilk test**
-2. If both groups satisfy normality assumptions:
-   - Apply an **independent two-sample t-test**
-3. If the data does **not** follow a normal distribution:
-   - Apply the **Mann–Whitney U test** as a non-parametric alternative
+**Numerical Variables**
+- Normality assessment using the Shapiro–Wilk test.
+- If the normality assumption was satisfied, an independent two-sample t-test was performed.
+- If the data was not normally distributed, the Mann–Whitney U test was used as a non-parametric alternative.
 
-This approach ensures valid statistical comparisons regardless of data distribution.
+**Categorical Variables**
+- Associations between categorical variables and social anxiety were evaluated using the Chi-Square Test of Independence.
+  
+This methodology ensures that each statistical test is selected according to the characteristics of the data, providing reliable and valid comparisons across both numerical and categorical variables.
 
 ---
 
@@ -66,7 +68,7 @@ This approach ensures valid statistical comparisons regardless of data distribut
 - Shapiro–Wilk test (normality assessment)
 - Independent two-sample t-test (parametric)
 - Mann–Whitney U test (non-parametric)
-
+- Chi-Square Test of Independence (categorical variables)
 ---
 
 ## Libraries Used
